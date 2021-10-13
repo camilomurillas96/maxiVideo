@@ -39,9 +39,9 @@
               </div>
                 <hr>
                 <br>
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="form-group"><!--<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">-->
                 <div class="col-sm-6">
-                <input class="form-select" aria-label="select example" list="milist">
+                <input type="text" class="form-control" list="milist" required>
                   <datalist id="milist">
                   <option value="">Seleeccione una Pelicula</option>
                   <option value="1">One</option>
@@ -52,6 +52,7 @@
                 <div class="invalid-feedback">Por favor, seleccione una pelicula</div>
                 </div>
                 </div>
+                <br><br><br>
               <div class="form-group">
                 <textarea name="message" id="message" class="form-control" rows="4" placeholder="Observación" ></textarea>
               </div>  
